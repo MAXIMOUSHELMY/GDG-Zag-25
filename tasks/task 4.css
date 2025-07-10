@@ -1,0 +1,84 @@
+.assign-2-shape-1 {
+    width: 400px ;
+    height : 400px ;
+    background-image: url("/GDG-Zag-25/images/css-assignment-5-8.png");
+    background-repeat: no-repeat;
+}
+.assign-2-shape-2 {
+     width: 400px ;
+    height : 400px ;
+    background-image: url("/GDG-Zag-25/images/css-assignment-5-8.png");
+    background-repeat: repeat-y;
+}
+.assign-2-shape-3 {
+    width: 400px ;
+    height : 400px ;
+    background-image: url("/GDG-Zag-25/images/css-assignment-5-8.png");
+    background-repeat: repeat-x;
+}
+.assign-2-shape-4 {
+    width: 400px ;
+    height : 400px ;
+    background-image: url("/GDG-Zag-25/images/css-assignment-5-8.png");
+    background-repeat: repeat;
+}
+.shape-1 {
+    background-color: antiquewhite;
+    padding: 10px 30px ;
+     margin-left: 10px ;
+    margin-right: 10px ;
+    outline: 5px solid black;
+    border: 5px solid red;
+
+}
+.shape-2 {
+    background-color: antiquewhite;
+    padding: 10px 30px ;
+    margin-left: 10px ;
+    margin-right: 10px ;
+     outline: 5px solid black;
+     border-color: blue green ;
+     border-style: solid;
+
+}
+.shape-3 {
+    background-color: antiquewhite;
+    padding: 10px 30px ;
+     margin-left: 10px ;
+     margin-right: 10px ;
+     outline: 5px solid black;
+     border-color: red green blue yellow ;
+     border-style: dashed;
+
+}
+.element {
+    width: 400px;
+    visibility: hidden;
+}
+div.parent div.child span.title {
+    color: red;
+}
+div.parent span.title {
+    color: blue;
+}
+p , div.title {
+    color: green;
+}
+div.ch {
+    width: fit-content;
+    margin: 12px ;
+    padding: 20px ;
+    background-color: brown;
+    color: white;
+    max-width: 400px ;
+}
+div.chh {
+        width: fit-content;
+    margin: 12px ;
+    padding: 20px ;
+    background-color: brown;
+    color: white;
+    max-height: 100px ;
+    max-width: 400px ;
+    overflow: hidden;
+}
