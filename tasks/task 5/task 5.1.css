@@ -1,0 +1,22 @@
+#ma {
+     background-color: #f9f9f9;
+    text-shadow: 1px 0 0 red ,
+    2px 0 0 blue ,
+    3px 0 0 green ;
+}
+p.one {
+    text-transform: uppercase;
+}
+p.two {
+    text-transform: capitalize;
+}
+p.tree {
+    text-transform: lowercase;
+}
+#m {
+    background-color: #e7dbdb;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
