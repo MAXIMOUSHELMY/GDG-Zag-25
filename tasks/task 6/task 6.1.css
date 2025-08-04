@@ -1,0 +1,49 @@
+.ass1 div{
+    width: 300px;
+    height: 60px;
+    background-color: #eee;
+    margin: 20px auto;
+    line-height: 4;
+    text-align: center;
+}
+.ass1 div:empty {
+    background-color: red;
+}
+.ass2 div {
+    width: 300px;
+    height: 60px;
+    background-color: #c8baba;
+    margin: 20px auto;
+    text-align: center;
+    line-height: 4;
+}
+.ass2 div::first-letter{
+    display: inline block;
+    background-color: red;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    margin: auto 20px auto -30px;
+}
+.ass3 {
+    margin: 20px auto;
+    width: 400px;
+}
+.ass3 p {
+    width: 400px;
+    background-color: #efefef;
+    padding: 15px;
+    position: relative;
+   border-left:4px solid #e91e63;
+}
+.ass3 p::before{
+    position: absolute;
+    content: attr(data-person);
+    padding: 10px;
+    background-color: #ddd;
+    width: 60px;
+    top: 50%;
+    left: -100px;
+    margin-top: -19px;
+    text-align: center;
+}
