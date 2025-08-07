@@ -1,0 +1,42 @@
+
+.assignment-2{
+    width: 200px;
+    height: 200px;
+    background-color: #ddd;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -100px;
+    margin-left: -100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+.assignment-2::before,
+.assignment-2:after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    border-radius: inherit;
+    z-index: -1;
+    transition-duration: 0.5s;
+}
+.assignment-2::before{
+    border: 20px solid #03a9f4;
+    border-right-color: #fff;
+    transition-delay: 0.5s;
+
+}
+.assignment-2::after{
+    border: 10px solid #e91e63;
+    border-left-color: #fff;
+}
+.assignment-2:hover::after,
+.assignment-2:hover::before{
+    transform: rotate(360deg);
+}
+
